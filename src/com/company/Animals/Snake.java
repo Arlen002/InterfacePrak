@@ -82,19 +82,19 @@ public class Snake extends Reptiles implements AnimalInterface {
             species = sc.nextLine();
             return species + "жеди";
 
-//            String  eggs ;
-//            switch ("eggs") {
-//                case "Чабалекей":
-//                    System.out.println("10");
-//                    break;
-//                case "eggs > 10 ":
-//                    System.out.println("Курсагы ток");
-//                    break;
-//                case "eggs < 10":
-//                    System.out.println("курсагы ток" + hungry + irritated + true);
-//                    break;
-//            }
-            }return "jedi";
+            String  eggs ;
+            switch ("eggs") {
+                case "Чабалекей":
+                    System.out.println("10");
+                    break;
+                case "eggs > 10 ":
+                    System.out.println("Курсагы ток");
+                    break;
+                case "eggs < 10":
+                    System.out.println("курсагы ток" + hungry + irritated + true);
+                    break;
+            }
+            }return species;
 
         }
 
